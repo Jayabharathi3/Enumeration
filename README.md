@@ -39,7 +39,7 @@ Following searches for all the sites that is in the domain udemy.com
 
 
 
-### **FILETYPE:**
+## **FILETYPE:**
 This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain udemy.com
 
@@ -52,7 +52,7 @@ This operator allows you to search for pages that contain specific text within t
 ![image](https://github.com/Jayabharathi3/Enumeration/assets/120367796/57fc7d08-eeee-4455-8fff-89dafd0b9a7c)
 
 
-## **INUR**L:
+## **INURL**:
 This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
 ![image](https://github.com/Jayabharathi3/Enumeration/assets/120367796/94e18585-3bfb-4820-9d33-02af1bac82f1)
@@ -65,13 +65,13 @@ This operator allows you to search for pages that contain specific text within t
 
 
 
-## ** LINK** :
+## ** LINK ** :
 This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
 ![image](https://github.com/Jayabharathi3/Enumeration/assets/120367796/2f7f6dd9-7de3-4418-bc97-724b1670a79f)
 
 
-## **CACHE **:
+## ** CACHE **:
 This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
 ![image](https://github.com/Jayabharathi3/Enumeration/assets/120367796/c100bd91-4222-474f-829e-e200e554bc61)
@@ -81,7 +81,7 @@ This operator allows you to view the cached version of a page. For example, "cac
 # DNS Enumeration
 
 
-##** DNS Recon**
+## ** DNS Recon **
 
 provides the ability to perform:
 Check all NS records for zone transfers
@@ -94,7 +94,7 @@ Top level domain expansion
 
 
 
-## **dnsenum**
+## ** DNSENUM **
 
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
@@ -114,7 +114,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 
 
-## **smtp-user-enum**
+## ** smtp-user-enum **
 
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
@@ -128,7 +128,7 @@ select any username in the first column of the above file and check the same
   
   
 
-## **nmap –script smtp-enum-users.nse <hostname>**
+## ** nmap –script smtp-enum-users.nse <hostname> **
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
